@@ -214,8 +214,8 @@ https://sepolia.etherscan.io/address/0x9C20C3545ffc3D2b0bb719eDF6f082f71666C52f
 Como no encontré testnets activas para NFT, decidí conservarla en mi propia colección 😅
 
 <p align="center">
-  <img src="https://i.ibb.co/xK3CvDXB/rivotril-imagen.jpg" width="250">
-</p> 
+  <img src="https://i.ibb.co/xK3CvDXB/rivotril-imagen.jpg" alt="Imagen de Rivotril" width="250"/>
+</p>
 
 **Token ID:** #0001  
 **Name:** Rivotril a morir  
