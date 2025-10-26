@@ -209,7 +209,7 @@ https://sepolia.etherscan.io/address/0x9C20C3545ffc3D2b0bb719eDF6f082f71666C52f
 
 ## 🌐 Área personal — versión tokenizada
 
-*Más que aprender a depositar tokens, terminé minteando mi salud mental…*
+*Más que aprender a depositar tokens, terminé "minteando" mi salud mental…*
 
 Como no encontré testnets activas para NFT, decidí conservarla en mi propia colección 😅
 
