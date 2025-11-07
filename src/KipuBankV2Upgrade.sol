@@ -1,4 +1,5 @@
-/* Aplico observaciones realizadas a KipuBankV2 para mejorar el código y prepararlo para el TP4*/
+/* Aplico observaciones realizadas a KipuBankV2 para mejorar el código y prepararlo para el TP4
+Falta pasar los comentarios en English*/
 
 
 // SPDX-License-Identifier: MIT
@@ -13,7 +14,7 @@ import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interfaces/AggregatorV3Interface.sol";
 
 /**
- * @title KipuBankV2
+ * @title KipuBankV2Upgrade
  * @author Laura-bmk
  * @notice Banco descentralizado que permite depositar y retirar ETH y USDC con conversión a dólares
  * @dev Evolución de KipuBank aplicando conceptos del Módulo 3:
@@ -25,7 +26,7 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/shared/interf
  * - Protección contra reentrancia optimizada con uint8
  * - Patrón Checks-Effects-Interactions aplicado consistentemente
  */
-contract KipuBankV2 is Ownable {
+contract KipuBankV2Upgrade is Ownable {
 
     /*//////////////////////////////////////////////////////////////
                             CONSTANTES
@@ -89,7 +90,7 @@ contract KipuBankV2 is Ownable {
 
     /// @notice Lock de reentrancia optimizado usando uint8
     /// @dev Usa valores 1→2→1 en vez de bool false→true→false
-    /// @dev Ahorra ~15,000 gas por transacción al evitar escribir 0 en storage
+    ///@dev Ahorra  ~15,000 gas por transacción al evitar escribir 0 en storage
     /// @dev Alterna entre UNLOCKED (1) y LOCKED (2)
     uint8 private flag = UNLOCKED;
 
